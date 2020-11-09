@@ -1,0 +1,2 @@
+{{ $script := resources.Get "js/include.js" | js.Build }}
+<script type="text/javascript" src="{{ $script.RelPermalink }}"></script>

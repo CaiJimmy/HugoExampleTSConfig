@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "CommonJS",
+        "lib": [
+            "es2018",
+            "dom"
+        ],
+        "moduleResolution": "Node",
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceRoot": "./src/",
+        "outDir": "dist",
+        "sourceMap": true,
+        "jsx": "preserve",
+        "baseUrl": ".",
+        "paths": {
+            "~/*": [
+                "src/*"
+            ]
+        }
+    }
+}
